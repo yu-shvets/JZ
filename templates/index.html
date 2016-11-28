@@ -1,0 +1,20 @@
+{% load static from staticfiles %}
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Julia Zinovieva | Architect</title>
+    <link rel="stylesheet" href={{ PORTAL_URL }}{% static "style.css" %}>
+</head>
+<body>
+        <div class="container">
+
+          <h1>JULIA ZINOVIEVA</h1>
+          <p>ARCHITECT</p>
+          <a class="btn" href="{% url 'projects' %}">Enter</a>
+        </div>
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script src={{ PORTAL_URL }}{% static "main.js" %}></script>
+</body>
+</html>
