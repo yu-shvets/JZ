@@ -1,1 +1,1 @@
-web: gunicorn JZ.wsgi --log-file -
+web: gunicorn JZ_django.wsgi --log-file -
