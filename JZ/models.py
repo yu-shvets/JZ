@@ -37,6 +37,15 @@ class Project(models.Model):
         default=''
     )
 
+    def save(self, *args, **kwargs):
+        try:
+            this = Project.objects.get(id=self.id)
+            if this.main_image != self.main_image:
+                this.main_image.delete(save=False)
+        except:
+            pass
+        super(Project, self).save(*args, **kwargs)
+
     def __str__(self):
         return "{}".format(self.name)
 
@@ -54,6 +63,15 @@ class Image(models.Model):
     )
 
     project = models.ForeignKey(Project)
+
+    def save(self, *args, **kwargs):
+        try:
+            this = Image.objects.get(id=self.id)
+            if this.image != self.image:
+                this.image.delete(save=False)
+        except:
+            pass
+        super(Image, self).save(*args, **kwargs)
 
     def __str__(self):
         return "{}".format(self.project)
