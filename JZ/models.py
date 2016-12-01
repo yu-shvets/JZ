@@ -74,7 +74,7 @@ class Image(models.Model):
         super(Image, self).save(*args, **kwargs)
 
     def __str__(self):
-        return "{}".format(self.project)
+        return "{}-{}".format(self.project, self.image)
 
 
 class About(models.Model):
