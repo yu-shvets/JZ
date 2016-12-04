@@ -11,13 +11,13 @@ body {
 .container {
 	margin: 0 auto;
     padding: 0 10px;
-    max-width: 1290px;
+    max-width: 1100px;
 }
 
 .dropdown {
     position: absolute;
     margin-top: 20px;
-    margin-left: 1181px;
+    margin-left: 1070px;
 }
 
 .dropdown-menu {
