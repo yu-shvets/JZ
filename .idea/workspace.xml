@@ -2,28 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e05b9a33-0c5c-428f-aeb9-5b19ee296c70" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../goldenermann/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/about.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../stage_app/stage/static/stage.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../parser/index.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../badminton_app/static/badminton-wallpaper-18.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lagoda_app/static/Sinatra.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../stage_app/stage/templates/events.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/runtime.txt" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../badminton_app/static/giphy-3.gif" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../e_shop/goods/static/main.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../lagoda_app/static/Sinatra.jpg" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../stage_app/stage/static/hall.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../stage_app/stage/static/events.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../badminton_app/static/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/index.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../parser/.idea/vcs.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../goldenermann/templates/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../stage_app/stage/static/stage.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Procfile" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/runtime.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/about.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/index.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/info.html" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/projects.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../badminton_app/static/style.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../e_shop/goods/static/main.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../goldenermann/.idea/vcs.xml" />
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../goldenermann/static/style.css" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/requirements.txt" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../goldenermann/templates/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../parser/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../parser/index.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../stage_app/stage/static/events.css" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../stage_app/stage/templates/events.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../django_project_template/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../django_project_template/.idea/vcs.xml" />
     </list>
     <ignored path="JZ_django.iws" />
@@ -100,7 +100,7 @@
       <file leaf-file-name="projects.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/templates/projects.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-16.25">
               <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
               <folding />
             </state>
@@ -127,21 +127,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="info.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="info.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JZ_django/static/info.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-17.166666">
-              <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+            <state vertical-scroll-proportion="1.8215892">
+              <caret line="81" column="23" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="projects.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="projects.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JZ_django/static/projects.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.46926537">
-              <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+            <state vertical-scroll-proportion="-5.2916665">
+              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -275,8 +275,8 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -954,14 +954,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/templates/projects.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/requirements.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -980,18 +972,26 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JZ_django/static/info.css">
+    <entry file="file://$PROJECT_DIR$/templates/projects.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-17.166666">
-          <caret line="53" column="20" selection-start-line="53" selection-start-column="20" selection-end-line="53" selection-end-column="20" />
+        <state vertical-scroll-proportion="-16.25">
+          <caret line="26" column="7" selection-start-line="26" selection-start-column="7" selection-end-line="26" selection-end-column="7" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/JZ_django/static/projects.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.46926537">
-          <caret line="42" column="23" selection-start-line="42" selection-start-column="23" selection-end-line="42" selection-end-column="23" />
+        <state vertical-scroll-proportion="-5.2916665">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/JZ_django/static/info.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.8215892">
+          <caret line="81" column="23" selection-start-line="81" selection-start-column="23" selection-end-line="81" selection-end-column="23" />
           <folding />
         </state>
       </provider>
