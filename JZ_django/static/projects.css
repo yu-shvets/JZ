@@ -64,18 +64,18 @@ h1 {
 
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2){
     image {
-        width: 67%;
+        width: 57%;
     }
     .dropdown {
-        margin-left: 93%;
+        margin-left: 83%;
     }
 }
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     image {
-        width: 67%;
+        width: 57%;
     }
     .dropdown {
-        margin-left: 93%;
+        margin-left: 83%;
     }
 }

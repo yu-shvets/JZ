@@ -127,20 +127,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="info.css" pinned="false" current-in-tab="true">
+      <file leaf-file-name="info.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/JZ_django/static/info.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.50524735">
+            <state vertical-scroll-proportion="-14.041667">
               <caret line="66" column="79" selection-start-line="66" selection-start-column="79" selection-end-line="66" selection-end-column="79" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="projects.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="projects.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/JZ_django/static/projects.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-22.791666">
+            <state vertical-scroll-proportion="0.82008994">
               <caret line="78" column="22" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
               <folding />
             </state>
@@ -182,8 +182,8 @@
         <option value="$PROJECT_DIR$/JZ/models.py" />
         <option value="$PROJECT_DIR$/jz-architects/JZ/static/info.css" />
         <option value="$PROJECT_DIR$/JZ/static/info.css" />
-        <option value="$PROJECT_DIR$/JZ_django/static/projects.css" />
         <option value="$PROJECT_DIR$/JZ_django/static/info.css" />
+        <option value="$PROJECT_DIR$/JZ_django/static/projects.css" />
       </list>
     </option>
   </component>
@@ -554,7 +554,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="40" y="23" width="1400" height="788" extended-state="1" />
+    <frame x="40" y="23" width="1400" height="788" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -980,18 +980,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JZ_django/static/projects.css">
+    <entry file="file://$PROJECT_DIR$/JZ_django/static/info.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-22.791666">
-          <caret line="78" column="22" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
+        <state vertical-scroll-proportion="-14.041667">
+          <caret line="66" column="79" selection-start-line="66" selection-start-column="79" selection-end-line="66" selection-end-column="79" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/JZ_django/static/info.css">
+    <entry file="file://$PROJECT_DIR$/JZ_django/static/projects.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.50524735">
-          <caret line="66" column="79" selection-start-line="66" selection-start-column="79" selection-end-line="66" selection-end-column="79" />
+        <state vertical-scroll-proportion="0.82008994">
+          <caret line="78" column="22" selection-start-line="78" selection-start-column="22" selection-end-line="78" selection-end-column="22" />
           <folding />
         </state>
       </provider>
