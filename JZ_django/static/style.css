@@ -17,38 +17,6 @@ body {
     text-align: center;
 }
 
-.dropdown {
-    position: absolute;
-    vertical-align: text-top;
-    text-align: left;
-    margin-top: -20px;
-    margin-left: 1160px;
-}
-
-.dropdown-menu {
-    border-radius:0px;
-    box-shadow:none;
-    border:none;
-    background-color: aliceblue;
-    list-style-type: none;
-}
-
-.dropdown-menu li {
-    margin-left: -85px;
-    margin-bottom: 5px;
-    float: none;
-
-}
-
-.dropdown-menu li a {
-    color:black;
-    padding: 5px 0;
-    text-decoration: none;
-    font-size: 15px;
-    font-weight: lighter;
-    letter-spacing: 2px;
-}
-
 h1 {
 	color: darkslategray;
 	font-size: 20px;

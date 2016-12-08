@@ -81,3 +81,12 @@ p {
         margin-left: 77%;
     }
 }
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .container {
+        max-width: 88%;
+    }
+    .dropdown {
+        margin-left: 77%;
+    }
+}
