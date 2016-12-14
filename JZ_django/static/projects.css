@@ -17,7 +17,7 @@ body {
     text-align: right;
     position: fixed;
 	overflow-y: auto;
-    margin-left: 1120px;
+    margin-left: 1090px;
     margin-top: 20px;
 }
 
@@ -44,7 +44,7 @@ h1 {
     font-size: 20px;
     font-weight: lighter;
     margin-top: 0px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     text-transform: uppercase;
     text-align: center;
     letter-spacing: 9px;

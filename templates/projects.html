@@ -11,11 +11,11 @@
     <div class="container">
       <div class="dropdown">
           <ul class="dropdown-menu">
-              <li><a href="{% url 'about' %}">about</a></li>
-              <li><a href="#">contact</a></li>
+              <li><a href="{% url 'about' %}">about / о себе</a></li>
+              <li><a href="#">contacts / контакты</a></li>
           </ul>
       </div>
-        <h1>Projects</h1>
+        <h1>Projects/Проекты</h1>
         {% for project in object_list %}
             {% if project.main_image %}
         <a href={% url 'info' project.id %}><img class="image" src={{ project.main_image.url }}></a>

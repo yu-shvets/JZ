@@ -11,14 +11,14 @@
     <div class="container">
         <div class="dropdown">
                 <ul class="dropdown-menu">
-                    <li><a href="{% url 'projects' %}">projects</a></li>
-                    <li><a href="{% url 'about' %}">about</a></li>
-                    <li><a href="#">contact</a></li>
+                    <li><a href="{% url 'projects' %}">projects / проекты</a></li>
+                    <li><a href="{% url 'about' %}">about / о себе</a></li>
+                    <li><a href="#">contacts / контакты</a></li>
                 </ul>
       </div>
       <div class="main">
         <h1>{{ project.name }}</h1>
-        <p class="text">Year: {{ project.year }}</p>
+        <p class="text">Year / Год: {{ project.year }}</p>
         <p>{{ project.info | linebreaks }}</p>
         <img class="image" src={{ project.main_image.url }}>
         {% for image in project.image_set.all %}
