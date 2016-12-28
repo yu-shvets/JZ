@@ -24,7 +24,18 @@
         {% for image in project.image_set.all %}
         <img class="image" src={{ image.image.url }}>
         {% endfor %}
+
       </div>
+      <div class="comment">
+      {% for comment in feedback %}
+        <p>{{ comment.name }}, {{ comment.datetime }}</p>
+        <p>{{ comment.comment }}</p>
+        <hr>
+      {% endfor %}
+      </div>
+
+      {% include 'feedback.html' %}
+
     </div>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
 </body>

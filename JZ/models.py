@@ -1,5 +1,7 @@
 from django.db import models
 import datetime
+from django.core.urlresolvers import reverse
+from django.utils import timezone
 
 # Create your models here.
 
@@ -94,3 +96,33 @@ class About(models.Model):
         verbose_name="Info",
         default=''
     )
+
+
+class Feedback(models.Model):
+
+    class Meta(object):
+        verbose_name = "Feedback"
+        verbose_name_plural = "Feedback"
+
+    name = models.CharField(
+        max_length=256,
+        blank=False,
+        verbose_name="Name"
+    )
+
+    datetime = models.DateTimeField(
+        auto_now_add=True
+    )
+
+    comment = models.TextField(
+        blank=False,
+        verbose_name="Comment"
+    )
+
+    project = models.ForeignKey(Project)
+
+    def __str__(self):
+        return "{}-{}".format(self.project, self.name)
+
+    def get_absolute_url(self):
+        return reverse('info', args=[self.project.pk])

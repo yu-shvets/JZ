@@ -64,6 +64,10 @@ p {
     font-size: 15px;
 }
 
+.comment {
+    margin-top: 100px;
+}
+
 @media only screen and (min-device-width: 375px) and (max-device-height: 667px) and (-webkit-device-pixel-ratio: 2){
     .container {
         max-width: 88%;

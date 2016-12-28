@@ -17,12 +17,13 @@ from django.conf.urls import url
 from django.contrib import admin
 from django.conf import settings
 from django.views.static import serve
-from JZ.views import index, ProjectListView, ProjectDetailView, about
+from JZ.views import index, ProjectListView, ProjectDetailView, about, FeedbackCreate
 
 urlpatterns = [
     url(r'^$', index, name='home'),
     url(r'^projects/$', ProjectListView.as_view(), name='projects'),
     url(r'^projects/(?P<pk>\d+)/info/$', ProjectDetailView.as_view(), name='info'),
+    url(r'^feedback/$', FeedbackCreate.as_view(), name='feedback'),
     url(r'^about/$', about, name='about'),
 
     url(r'^admin/', admin.site.urls),

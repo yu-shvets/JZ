@@ -1,0 +1,15 @@
+<head>
+    <style>
+        .btn {
+            font-size: 20px;
+            margin-bottom: 40px;
+        }
+    </style>
+</head>
+
+<p style="margin-top: 60px">Please, leave your feedback</p>
+      <form method="post" action="{% url 'feedback' %}">
+        {% csrf_token %}
+        {{ form.as_p }}
+      <input type="submit" value="Submit" class="btn"/>
+      </form>
