@@ -64,7 +64,7 @@ h1 {
 
 @media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
     .image {
-        width: 62%;
+        width: 60%;
     }
     .dropdown {
         margin-left: 75%;
@@ -73,7 +73,7 @@ h1 {
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .image {
-        width: 62%;
+        width: 60%;
     }
     .dropdown {
         margin-left: 75%;
