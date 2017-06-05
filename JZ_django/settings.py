@@ -136,8 +136,8 @@ STATICFILES_DIRS = (
 STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 
 
-AWS_ACCESS_KEY_ID = 'AKIAJXNVDKCAL7M2MXEA'
-AWS_SECRET_ACCESS_KEY = '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'
+AWS_ACCESS_KEY_ID = '****'
+AWS_SECRET_ACCESS_KEY = '**********'
 S3_BUCKET_NAME = 'jz-mediabucket'
 
 MEDIA_URL = 'https://s3.amazonaws.com/jz-mediabucket/'
